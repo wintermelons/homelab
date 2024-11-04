@@ -1,0 +1,10 @@
+homelab:
+  hosts:
+    chlorine:
+      ansible_host: homelab.wintermelons.me
+      ansible_port: 19017
+      ansible_user: david
+    fluorine:
+      ansible_host: homelab.wintermelons.me
+      ansible_port: 19007
+      ansible_user: david
